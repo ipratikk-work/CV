@@ -1,0 +1,117 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-text {
+    font-size: 1em;
+}
+
+#body {
+    text-align: center;
+}
+
+#body h6 {
+    margin-top: 10%;
+    padding: 10%;
+}
+
+#body button {
+    margin: 5%;
+}
+
+#body p {
+    margin: 0;
+    margin-top: 5%;
+}
+
+.continue {
+    border-radius: 25px;
+    color: white;
+    background-color: #ff008c;
+    border: 0;
+    padding: 2% 5%;
+}
+
+footer {
+    margin-top: 10%;
+    background-color: #f7f7f7;
+}
+
+footer .container {
+    padding: 4%;
+}
+
+.flex-vertical{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 2%;
+}
+
+.flex-vertical svg {
+    width: 15px;
+    margin: 4%;
+}
+.flex-vertical a {
+    display:flex; 
+    align-items: center;
+    font-size: 0.75em;
+    color: black;
+}
+
+.flex-vertical a {
+    padding: 2% 0;
+}
+
+#footnote{
+    color: white;
+    background-color: #ff008c;
+    padding: 5%;
+    font-size: 0.75em;
+}
+#footnote div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#footnote a {
+    color: white;
+}
+
+@media only screen and (min-width:600px) {
+    #body h6 {
+        margin-top: 2%;
+        padding: 2% 10%;
+    }
+
+    #body button {
+        margin: 2%;
+    }
+    #body p{
+        margin-top: 2%;
+    }
+    .continue{
+        padding: 0.5% 3%;
+    }
+    footer .container {
+        padding: 2%;
+    }
+    .flex-vertical {
+        margin: 0 2%;
+    }
+    .flex-vertical a {
+        font-size: 1em;
+    }
+    #footnote {
+        padding: 2%;
+        font-size: 1em;
+    }
+    #footnote div{
+        flex-direction: row;
+        margin: 0 25%;
+    }
+    nav div, nav a {
+        padding: 1% 8%;
+    }
+}
